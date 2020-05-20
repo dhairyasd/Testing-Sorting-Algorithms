@@ -54,6 +54,13 @@ double dispatch(enum algos algo, int size)
 			t = clock() - t;
 		}
 		break;
+		case MERGE_SORT:
+		{
+			t = clock();
+			//merge_sort(Array, size);							//call to sorting algo
+			t = clock() - t;
+		}
+		break;
 		default:
 			return -1;
 	}

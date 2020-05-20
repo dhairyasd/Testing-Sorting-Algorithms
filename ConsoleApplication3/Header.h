@@ -15,6 +15,7 @@ int bubble_sort(uint16 * arr, int size);
 int insertion_sort(uint16 *arr, int size);
 int selection_sort(uint16 *arr, int size);
 int quick_sort(uint16 *arr, int size);
+int merge_sort(uint16 *arr, int size);
 
 //	Math functions
 double average(double * values, int size);
