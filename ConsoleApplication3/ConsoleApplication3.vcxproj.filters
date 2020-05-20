@@ -42,6 +42,9 @@
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\quick_sort.c">
       <Filter>Source Files\sorting algos</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\merge_sort.c">
+      <Filter>Source Files\sorting algos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\Header.h">

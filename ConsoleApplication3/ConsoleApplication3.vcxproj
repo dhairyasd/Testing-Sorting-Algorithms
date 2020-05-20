@@ -155,6 +155,7 @@
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\Dispatcher.c" />
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\insertion_sort.c" />
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\maths.c" />
+    <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\merge_sort.c" />
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\miscApis.c" />
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\quick_sort.c" />
     <ClCompile Include="..\..\..\..\..\Dhairya%27s Laptop\source\repos\ConsoleApplication3\ConsoleApplication3\selection_sort.c" />

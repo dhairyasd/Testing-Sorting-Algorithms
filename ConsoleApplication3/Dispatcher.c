@@ -3,7 +3,7 @@
 #include <string.h>
 
 extern uint16 *Array;
-#define NO_OF_TIMES 100
+#define NO_OF_TIMES 10
 
 #define BUBBLE_TEXT "bubble"
 #define INSERTION_TEXT "insertion"
@@ -57,7 +57,7 @@ double dispatch(enum algos algo, int size)
 		case MERGE_SORT:
 		{
 			t = clock();
-			//merge_sort(Array, size);							//call to sorting algo
+			merge_sort(Array, size);							//call to sorting algo
 			t = clock() - t;
 		}
 		break;
@@ -88,6 +88,8 @@ void Calc_time_for_sorting_algo(char const *type_of_sort, int size)
 		algo = SELECTION_SORT;
 	else if (!_strcmpi(type_of_sort, QUICK_TEXT))
 		algo = QUICK_SORT;
+	else if (!_strcmpi(type_of_sort, MERGE_TEXT))
+		algo = MERGE_SORT;
 	else
 	{
 		printf("\n\tInvalid type of sorting, returning! ");

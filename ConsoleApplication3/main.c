@@ -30,8 +30,13 @@ int main()
 	printf("\n\n\t\tFor Selection Sort");
 	Calc_time_for_sorting_algo("Selection", size);
 
+
 	printf("\n\n\t\tFor Quick Sort");
 	Calc_time_for_sorting_algo("quick", size);
+
+
+	printf("\n\n\t\tFor Merge Sort");
+	Calc_time_for_sorting_algo("merge", size);
 
 	free(Array);
 	return 0;
